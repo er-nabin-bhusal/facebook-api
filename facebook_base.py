@@ -10,7 +10,7 @@ def facebook_req(req):
 	return r 
 
 data = ['id','username','posts']
-half_url = "teamwinkey?fields={}".format(data)
+half_url = "me?fields={}".format(data)
 print(half_url)
 response = facebook_req(half_url)
 
